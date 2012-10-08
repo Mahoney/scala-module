@@ -17,7 +17,7 @@
     </dependency>
     <dependency>
       <groupId>org.scalatest</groupId>
-      <artifactId>scalatest_2.9.1</artifactId>
+      <artifactId>scalatest_2.9.2</artifactId>
     </dependency>
     <dependency>
       <groupId>uk.org.lidalia</groupId>
