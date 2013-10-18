@@ -6,9 +6,10 @@
   <parent>
     <groupId>uk.org.lidalia</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
   </parent>
   <artifactId>scala-module</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
@@ -17,12 +18,12 @@
     </dependency>
     <dependency>
       <groupId>org.scalatest</groupId>
-      <artifactId>scalatest_2.9.2</artifactId>
+      <artifactId>scalatest_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>uk.org.lidalia</groupId>
       <artifactId>lidalia-test-dependencies</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
       <type>pom</type>
       <scope>test</scope>
     </dependency>
@@ -30,8 +31,8 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.scala-tools</groupId>
-        <artifactId>maven-scala-plugin</artifactId>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
